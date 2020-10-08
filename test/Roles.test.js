@@ -1,6 +1,7 @@
-const Roles = require('../src/Roles');
 const expect = require('expect');
 const _ = require('lodash');
+
+const Roles = require('../src/Roles');
 
 const permissions = {
   foo: {

@@ -1,10 +1,10 @@
-const { reduce, some } = require('lodash');
+const { get, reduce, some, map } = require('lodash');
 
 const Roles = require('./Roles');
 
-function Acl(initial = {}) {
+function Acl(initial = []) {
   const roles = Roles();
-  initial.map((permissions, id) => roles.add(id, permissions));
+  initial.map((role) => roles.add(get(role, 'id'), get(role, 'permissions', {})));
 
   function isAllowed(path, identifiers = []) {
     return roles.getCombined(identifiers).isAllowed(path);

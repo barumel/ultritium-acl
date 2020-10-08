@@ -1,5 +1,6 @@
-const Role = require('../src/Role');
 const expect = require('expect');
+
+const Role = require('../src/Role');
 
 describe('Test role factory', () => {
   describe('Test whitout initial permissions', () => {
