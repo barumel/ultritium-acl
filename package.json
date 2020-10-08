@@ -1,5 +1,5 @@
 {
-  "name": "@ultritium/validate",
+  "name": "@ultritium/acl",
   "version": "0.0.1",
   "description": "Javascript acl library",
   "main": "index.js",
