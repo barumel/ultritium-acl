@@ -1,7 +1,7 @@
 # ultritium-acl
 
 [![Build Status](https://travis-ci.org/barumel/ultritium-acl.svg?branch=master)](https://travis-ci.org/barumel/ultritium-acl)
-[![npm package][npm-badge]][npm]
+[![NPM](https://img.shields.io/npm/v/@ultritium/acl.svg)](https://www.npmjs.org/package/@ultritium/acl)
 [![Coveralls][coveralls-badge]][coveralls]
 
 Describe ultritium-acl here.
