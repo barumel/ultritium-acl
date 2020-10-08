@@ -1,6 +1,6 @@
 # ultritium-acl
 
-[![Travis][build-badge]][build]
+[![Build Status](https://travis-ci.org/barumel/ultritium-acl.svg?branch=master)](https://travis-ci.org/barumel/ultritium-acl)
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
