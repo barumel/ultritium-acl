@@ -4,6 +4,9 @@
   "description": "Javascript acl library",
   "main": "index.js",
   "module": "es/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "es",
     "lib",
