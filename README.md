@@ -4,8 +4,6 @@
 [![NPM](https://img.shields.io/npm/v/@ultritium/acl.svg)](https://www.npmjs.org/package/@ultritium/acl)
 [![Coveralls][coveralls-badge]][coveralls]
 
-Ultritium Acl 
-
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
 
