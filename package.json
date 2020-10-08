@@ -14,7 +14,7 @@
     "start": "nodemon -w src -x 'nwb build-web-module --no-demo --copy-files'",
     "clean": "nwb clean-module",
     "prepublishOnly": "npm run build",
-    "test": "nwb test",
+    "test": "mocha --recursive --bail",
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
