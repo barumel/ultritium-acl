@@ -1,0 +1,44 @@
+{
+  "name": "@ultritium/validate",
+  "version": "0.0.1",
+  "description": "Javascript acl library",
+  "main": "index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-web-module --no-demo",
+    "start": "nodemon -w src -x 'nwb build-web-module --no-demo --copy-files'",
+    "clean": "nwb clean-module",
+    "prepublishOnly": "npm run build",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barumel/ultritium-acl.git"
+  },
+  "keywords": [
+    "acl"
+  ],
+  "author": "barumel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barumel/ultritium-acl/issues"
+  },
+  "homepage": "https://github.com/barumel/ultritium-acl#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "assertthat": "^5.2.1",
+    "eslint": "^7.10.0",
+    "eslint-config-es": "^3.24.2",
+    "mocha": "^8.1.3",
+    "nwb": "0.25.x"
+  }
+}
